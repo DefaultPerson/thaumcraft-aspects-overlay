@@ -26,6 +26,22 @@ A Thaumcraft 4 research solver and auto-placement overlay for Minecraft: recogni
 
 This is an external Python application, not a Minecraft mod. The current in-game interface and most runtime messages are in Russian; the controls are translated below.
 
+## Screenshots
+
+**One-click controls.** The current panel combines capture, solving and placement in **Решить и расставить**, with separate calculation, stop and visibility controls.
+
+![Current overlay panel with Solve and place, Calculate, Place, Stop, Hide scheme and Close buttons](docs/screenshots/one-click-controls.png)
+
+**Solution preview and aspect costs.** Cyan outlines mark suggested additions; the left panel lists the required aspects. This example has a proved minimum of nine added cells.
+
+![Research solution drawn over the hex grid, with nine additions and an aspect cost list](docs/screenshots/solution-overlay.png)
+
+**Completion confirmed by Minecraft.** The completed note, golden copy button and overlay confirmation are visible together.
+
+![Completed research note with Minecraft's golden copy button and the overlay completion message](docs/screenshots/research-completed.png)
+
+These are saved screenshots from actual runs. The solution and completion shots show an earlier panel; the first screenshot shows the current controls. Click an image to view it at full resolution.
+
 ## Compatibility
 
 | Environment | Status |
@@ -132,7 +148,7 @@ On Windows, use a Windows path such as `"C:/Games/MyMinecraftInstance"`; do not 
 - If a note changes or closes, the old scheme is invalidated. A fully placed scheme is distinguished from native Minecraft confirmation of research completion.
 - Missing aspect? Check stock and exclusions. A server-specific aspect needs a verified recipe and local artwork added to `aspects_overlay/data/aspects.json`; arbitrary add-on aspects are not automatically supported.
 - No window found? Run `--diagnose`, check the instance path and display, then use explicit `--window-id` if needed. Qt/xcb startup errors require the matching system libraries, not changes to aspect recipes.
-- `.runtime/overlay.log`, `launcher.log`, `last-solution.json`, `last-placement.json` and `last-placement.png` contain local diagnostics. Review them before sharing: screenshots can contain game chat or player names. The bundled demonstration is an explicitly selected gameplay recording; diagnostic captures are excluded from Git.
+- `.runtime/overlay.log`, `launcher.log`, `last-solution.json`, `last-placement.json` and `last-placement.png` contain local diagnostics. Review them before sharing: screenshots can contain game chat or player names. The bundled demo and gallery screenshots were selected for publication; the remaining diagnostic captures are excluded from Git.
 
 ## Development and checks
 
