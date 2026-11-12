@@ -1,0 +1,4 @@
+https://github.com/exaltedo2/ThaumcraftResearcher
+Commit: 3573b36c1a0e18b8159f974a46d0b61f8284f3f4
+Adapted data: src/data/aspects.js -> aspects_overlay/data/aspects.json
+Only aspect relationships and colors; no game textures redistributed.

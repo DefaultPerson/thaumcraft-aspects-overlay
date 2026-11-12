@@ -1,0 +1,19 @@
+# Copy to config.toml. CLI options override these settings.
+# Скопируйте в config.toml. Параметры командной строки имеют приоритет.
+# Relative paths are relative to this file. ~ means your home directory.
+# Относительные пути считаются от этого файла; ~ — домашняя папка.
+
+timeout = 8.0
+output = ".runtime"
+exclude = []
+
+# Usually detected automatically / Обычно определяются автоматически:
+# game_dir = "~/Games/MyMinecraftInstance"
+# display = ":2"
+
+# Use only if automatic window discovery fails; IDs change on game restart.
+# Только при ошибке автоопределения; ID меняется при перезапуске игры.
+# window_id = "0xe00003"
+
+# Optional inventory; missing aspects mean zero / Неуказанные аспекты = 0:
+# inventory = "inventory.json"

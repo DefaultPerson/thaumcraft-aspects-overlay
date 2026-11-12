@@ -1,0 +1,544 @@
+[
+  {
+    "id": "aer",
+    "components": [],
+    "color": "#ffff7e"
+  },
+  {
+    "id": "terra",
+    "components": [],
+    "color": "#56c000"
+  },
+  {
+    "id": "ignis",
+    "components": [],
+    "color": "#ff5a01"
+  },
+  {
+    "id": "aqua",
+    "components": [],
+    "color": "#3cd4fc"
+  },
+  {
+    "id": "ordo",
+    "components": [],
+    "color": "#d5d4ec"
+  },
+  {
+    "id": "perditio",
+    "components": [],
+    "color": "#404040"
+  },
+  {
+    "id": "vacuos",
+    "components": [
+      "aer",
+      "perditio"
+    ],
+    "color": "#888888"
+  },
+  {
+    "id": "lux",
+    "components": [
+      "aer",
+      "ignis"
+    ],
+    "color": "#fff663"
+  },
+  {
+    "id": "motus",
+    "components": [
+      "aer",
+      "ordo"
+    ],
+    "color": "#cdccf4"
+  },
+  {
+    "id": "gelum",
+    "components": [
+      "ignis",
+      "perditio"
+    ],
+    "color": "#e1ffff"
+  },
+  {
+    "id": "vitreus",
+    "components": [
+      "terra",
+      "ordo"
+    ],
+    "color": "#80ffff"
+  },
+  {
+    "id": "victus",
+    "components": [
+      "aqua",
+      "terra"
+    ],
+    "color": "#de0005"
+  },
+  {
+    "id": "venenum",
+    "components": [
+      "aqua",
+      "perditio"
+    ],
+    "color": "#89f000"
+  },
+  {
+    "id": "potentia",
+    "components": [
+      "ordo",
+      "ignis"
+    ],
+    "color": "#c0ffff"
+  },
+  {
+    "id": "permutatio",
+    "components": [
+      "perditio",
+      "ordo"
+    ],
+    "color": "#578357"
+  },
+  {
+    "id": "metallum",
+    "components": [
+      "terra",
+      "vitreus"
+    ],
+    "color": "#b5b5cd"
+  },
+  {
+    "id": "mortuus",
+    "components": [
+      "victus",
+      "perditio"
+    ],
+    "color": "#887788"
+  },
+  {
+    "id": "fames",
+    "components": [
+      "vacuos",
+      "victus"
+    ],
+    "color": "#9a0305"
+  },
+  {
+    "id": "volatus",
+    "components": [
+      "aer",
+      "motus"
+    ],
+    "color": "#e7e7d7"
+  },
+  {
+    "id": "tenebrae",
+    "components": [
+      "vacuos",
+      "lux"
+    ],
+    "color": "#222222"
+  },
+  {
+    "id": "spiritus",
+    "components": [
+      "victus",
+      "mortuus"
+    ],
+    "color": "#ebebfb"
+  },
+  {
+    "id": "sano",
+    "components": [
+      "victus",
+      "ordo"
+    ],
+    "color": "#ff2f34"
+  },
+  {
+    "id": "bestia",
+    "components": [
+      "motus",
+      "victus"
+    ],
+    "color": "#9f6409"
+  },
+  {
+    "id": "corpus",
+    "components": [
+      "mortuus",
+      "bestia"
+    ],
+    "color": "#ee478d"
+  },
+  {
+    "id": "herba",
+    "components": [
+      "victus",
+      "terra"
+    ],
+    "color": "#01ac00"
+  },
+  {
+    "id": "arbor",
+    "components": [
+      "aer",
+      "herba"
+    ],
+    "color": "#876531"
+  },
+  {
+    "id": "machina",
+    "components": [
+      "motus",
+      "instrumentum"
+    ],
+    "color": "#8080a0"
+  },
+  {
+    "id": "alienis",
+    "components": [
+      "vacuos",
+      "tenebrae"
+    ],
+    "color": "#805080"
+  },
+  {
+    "id": "cognitio",
+    "components": [
+      "ignis",
+      "spiritus"
+    ],
+    "color": "#ffc2b3"
+  },
+  {
+    "id": "sensus",
+    "components": [
+      "aer",
+      "spiritus"
+    ],
+    "color": "#0fd9ff"
+  },
+  {
+    "id": "humanus",
+    "components": [
+      "bestia",
+      "cognitio"
+    ],
+    "color": "#ffd7c0"
+  },
+  {
+    "id": "instrumentum",
+    "components": [
+      "humanus",
+      "ordo"
+    ],
+    "color": "#4040ee"
+  },
+  {
+    "id": "lucrum",
+    "components": [
+      "humanus",
+      "fames"
+    ],
+    "color": "#e6be44"
+  },
+  {
+    "id": "messis",
+    "components": [
+      "herba",
+      "humanus"
+    ],
+    "color": "#e1b371"
+  },
+  {
+    "id": "perfodio",
+    "components": [
+      "humanus",
+      "terra"
+    ],
+    "color": "#dcd2d8"
+  },
+  {
+    "id": "fabrico",
+    "components": [
+      "humanus",
+      "instrumentum"
+    ],
+    "color": "#809d80"
+  },
+  {
+    "id": "pannus",
+    "components": [
+      "instrumentum",
+      "bestia"
+    ],
+    "color": "#eaeac2"
+  },
+  {
+    "id": "tutamen",
+    "components": [
+      "instrumentum",
+      "terra"
+    ],
+    "color": "#00c0c0"
+  },
+  {
+    "id": "telum",
+    "components": [
+      "instrumentum",
+      "ignis"
+    ],
+    "color": "#c05050"
+  },
+  {
+    "id": "praecantatio",
+    "components": [
+      "vacuos",
+      "potentia"
+    ],
+    "color": "#9700c0"
+  },
+  {
+    "id": "vitium",
+    "components": [
+      "praecantatio",
+      "perditio"
+    ],
+    "color": "#800080"
+  },
+  {
+    "id": "auram",
+    "components": [
+      "praecantatio",
+      "aer"
+    ],
+    "color": "#ffc0ff"
+  },
+  {
+    "id": "vinculum",
+    "components": [
+      "motus",
+      "perditio"
+    ],
+    "color": "#9a8080"
+  },
+  {
+    "id": "limus",
+    "components": [
+      "victus",
+      "aqua"
+    ],
+    "color": "#01f800"
+  },
+  {
+    "id": "iter",
+    "components": [
+      "motus",
+      "terra"
+    ],
+    "color": "#e0585b"
+  },
+  {
+    "id": "exanimis",
+    "components": [
+      "motus",
+      "mortuus"
+    ],
+    "color": "#3a4000"
+  },
+  {
+    "id": "meto",
+    "components": [
+      "instrumentum",
+      "messis"
+    ],
+    "color": "#eead82"
+  },
+  {
+    "id": "tempestas",
+    "components": [
+      "aer",
+      "aqua"
+    ],
+    "color": "#ffffff"
+  },
+  {
+    "id": "electrum",
+    "components": [
+      "potentia",
+      "machina"
+    ],
+    "color": "#c0eeee"
+  },
+  {
+    "id": "magneto",
+    "components": [
+      "metallum",
+      "iter"
+    ],
+    "color": "#c0c0c0"
+  },
+  {
+    "id": "aequalitas",
+    "components": [
+      "cognitio",
+      "ordo"
+    ],
+    "color": "#eef0ea"
+  },
+  {
+    "id": "vesania",
+    "components": [
+      "cognitio",
+      "vitium"
+    ],
+    "color": "#1b122c"
+  },
+  {
+    "id": "primordium",
+    "components": [
+      "vacuos",
+      "motus"
+    ],
+    "color": "#f7f7db"
+  },
+  {
+    "id": "astrum",
+    "components": [
+      "lux",
+      "primordium"
+    ],
+    "color": "#2d2c2b"
+  },
+  {
+    "id": "gloria",
+    "components": [
+      "humanus",
+      "iter"
+    ],
+    "color": "#ffe980"
+  },
+  {
+    "id": "nebrisum",
+    "components": [
+      "lucrum",
+      "perfodio"
+    ],
+    "color": "#eeee7e"
+  },
+  {
+    "id": "radio",
+    "components": [
+      "potentia",
+      "lux"
+    ],
+    "color": "#c0ffc0"
+  },
+  {
+    "id": "strontio",
+    "components": [
+      "perditio",
+      "cognitio"
+    ],
+    "color": "#eec2b3"
+  },
+  {
+    "id": "tempus",
+    "components": [
+      "vacuos",
+      "ordo"
+    ],
+    "color": "#b68cff"
+  },
+  {
+    "id": "infernus",
+    "components": [
+      "ignis",
+      "praecantatio"
+    ],
+    "color": "#ff0000"
+  },
+  {
+    "id": "luxuria",
+    "components": [
+      "corpus",
+      "fames"
+    ],
+    "color": "#ffc1ce"
+  },
+  {
+    "id": "desidia",
+    "components": [
+      "vinculum",
+      "spiritus"
+    ],
+    "color": "#6e6e6e"
+  },
+  {
+    "id": "superbia",
+    "components": [
+      "volatus",
+      "vacuos"
+    ],
+    "color": "#9639ff"
+  },
+  {
+    "id": "invidia",
+    "components": [
+      "sensus",
+      "fames"
+    ],
+    "color": "#00ba00"
+  },
+  {
+    "id": "ira",
+    "components": [
+      "telum",
+      "ignis"
+    ],
+    "color": "#870404"
+  },
+  {
+    "id": "gula",
+    "components": [
+      "fames",
+      "vacuos"
+    ],
+    "color": "#d59c46"
+  },
+  {
+    "id": "caelum",
+    "components": [
+      "vitreus",
+      "metallum"
+    ],
+    "color": "#5e74cf"
+  },
+  {
+    "id": "tabernus",
+    "components": [
+      "tutamen",
+      "iter"
+    ],
+    "color": "#4c8569"
+  },
+  {
+    "id": "terminus",
+    "components": [
+      "lucrum",
+      "alienis"
+    ],
+    "color": "#b90000",
+    "texture": "assets/avaritia/textures/misc/terminus.png"
+  },
+  {
+    "id": "tincturem",
+    "components": ["lux", "ordo"],
+    "color": "#ffffff",
+    "texture": "assets/alfheim/textures/misc/tincturem.png",
+    "dynamic_color": "rainbow"
+  }
+]
